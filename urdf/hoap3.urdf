@@ -8,10 +8,12 @@
         <mesh filename="package://hoap3_description/meshes/BODY_LINK01.dae"/>
       </geometry>
     </visual>
-    <intertial>
+    <inertial>
       <mass value="3.26"/>
       <origin xyz="-0.049489 0.000892912 -0.0408259"/>
-    </intertial>
+      <!-- FIXME: Dummy inertia for a box of 0.1m side length with a mass of 0.6kg -->
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
   </link>
   <link name="H_PAN">
     <visual>
@@ -20,16 +22,20 @@
         <mesh filename="package://hoap3_description/meshes/HEAD_LINK01.dae"/>
       </geometry>
     </visual>
-    <intertial>
+    <inertial>
       <mass value="7.10e-02"/>
       <origin xyz="0.00539731 -0.00158067 0.0564034"/>
-    </intertial>
+      <!-- FIXME: Dummy inertia for a box of 0.1m side length with a mass of 0.6kg -->
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
   </link>
   <link name="H_TILT">
-    <intertial>
+    <inertial>
       <mass value="0"/>
       <origin xyz="0.0 0.0 0.0"/>
-    </intertial>
+      <!-- FIXME: Dummy inertia for a box of 0.1m side length with a mass of 0.6kg -->
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
   </link>
   <link name="H_ROLL">
     <visual>
@@ -38,10 +44,12 @@
         <mesh filename="package://hoap3_description/meshes/HEAD_LINK02.dae"/>
       </geometry>
     </visual>
-    <intertial>
+    <inertial>
       <mass value="4.12e-01"/>
       <origin xyz="-0.00103952 -0.00517985 1.82267e-05"/>
-    </intertial>
+      <!-- FIXME: Dummy inertia for a box of 0.1m side length with a mass of 0.6kg -->
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
   </link>
   <link name="HEAD"/>
   <link name="EYE"/>
@@ -54,10 +62,12 @@
         <mesh filename="package://hoap3_description/meshes/RARM_LINK01.dae"/>
       </geometry>
     </visual>
-    <intertial>
+    <inertial>
       <mass value="2.10e-01"/>
       <origin xyz="8.28367e-05 0.00666808 0.00634824"/>
-    </intertial>
+      <!-- FIXME: Dummy inertia for a box of 0.1m side length with a mass of 0.6kg -->
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
   </link>
   <link name="R_SAA">
     <visual>
@@ -66,10 +76,12 @@
         <mesh filename="package://hoap3_description/meshes/RARM_LINK02.dae"/>
       </geometry>
     </visual>
-    <intertial>
+    <inertial>
       <mass value="2.34e-01"/>
       <origin xyz="-0.00065756 -0.0463848 -0.00377395"/>
-    </intertial>
+      <!-- FIXME: Dummy inertia for a box of 0.1m side length with a mass of 0.6kg -->
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
   </link>
   <link name="R_SHR">
     <visual>
@@ -78,10 +90,12 @@
         <mesh filename="package://hoap3_description/meshes/RARM_LINK03.dae"/>
       </geometry>
     </visual>
-    <intertial>
+    <inertial>
       <mass value="1.965e-01"/>
       <origin xyz="-0.00272189 -0.00160245 -0.00220452"/>
-    </intertial>
+      <!-- FIXME: Dummy inertia for a box of 0.1m side length with a mass of 0.6kg -->
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
   </link>
   <link name="R_EB">
     <visual>
@@ -90,10 +104,12 @@
         <mesh filename="package://hoap3_description/meshes/RARM_LINK04.dae"/>
       </geometry>
     </visual>
-    <intertial>
+    <inertial>
       <mass value="2.16e-01"/>
       <origin xyz="0.00100237 0.0664225 -0.000615512"/>
-    </intertial>
+      <!-- FIXME: Dummy inertia for a box of 0.1m side length with a mass of 0.6kg -->
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
   </link>
   <link name="R_WR">
     <visual>
@@ -118,10 +134,12 @@
         <mesh filename="package://hoap3_description/meshes/LARM_LINK01.dae"/>
       </geometry>
     </visual>
-    <intertial>
+    <inertial>
       <mass value="2.10e-01"/>
       <origin xyz="-3.64197e-05 0.00664174 -0.00634825"/>
-    </intertial>
+      <!-- FIXME: Dummy inertia for a box of 0.1m side length with a mass of 0.6kg -->
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
   </link>
   <link name="L_SAA">
     <visual>
@@ -130,10 +148,12 @@
         <mesh filename="package://hoap3_description/meshes/LARM_LINK02.dae"/>
       </geometry>
     </visual>
-    <intertial>
+    <inertial>
       <mass value="2.34e-01"/>
       <origin xyz="0.000747218 -0.0463619 -0.00377403"/>
-    </intertial>
+      <!-- FIXME: Dummy inertia for a box of 0.1m side length with a mass of 0.6kg -->
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
   </link>
   <link name="L_SHR">
     <visual>
@@ -142,10 +162,12 @@
         <mesh filename="package://hoap3_description/meshes/LARM_LINK03.dae"/>
       </geometry>
     </visual>
-    <intertial>
+    <inertial>
       <mass value="1.965e-01"/>
       <origin xyz="-0.00270991 0.00160227 -0.00209019"/>
-    </intertial>
+      <!-- FIXME: Dummy inertia for a box of 0.1m side length with a mass of 0.6kg -->
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
   </link>
   <link name="L_EB">
     <visual>
@@ -154,10 +176,12 @@
         <mesh filename="package://hoap3_description/meshes/LARM_LINK04.dae"/>
       </geometry>
     </visual>
-    <intertial>
+    <inertial>
       <mass value="2.16e-01"/>
       <origin xyz="0.000962091 0.0664766 0.000558629"/>
-    </intertial>
+      <!-- FIXME: Dummy inertia for a box of 0.1m side length with a mass of 0.6kg -->
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
   </link>
   <link name="L_WR">
     <visual>
@@ -182,10 +206,12 @@
         <mesh filename="package://hoap3_description/meshes/RLEG_LINK01.dae"/>
       </geometry>
     </visual>
-    <intertial>
+    <inertial>
       <mass value="5.87e-02"/>
       <origin xyz="-0.003015 -0.0022399 0.0335846"/>
-    </intertial>
+      <!-- FIXME: Dummy inertia for a box of 0.1m side length with a mass of 0.6kg -->
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
   </link>
   <link name="R_LAA">
     <visual>
@@ -194,10 +220,12 @@
         <mesh filename="package://hoap3_description/meshes/RLEG_LINK02.dae"/>
       </geometry>
     </visual>
-    <intertial>
+    <inertial>
       <mass value="2.10e-01"/>
       <origin xyz="-0.00272697 0.00113482 0.0023778"/>
-    </intertial>
+      <!-- FIXME: Dummy inertia for a box of 0.1m side length with a mass of 0.6kg -->
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
   </link>
   <link name="R_LFE">
     <visual>
@@ -206,10 +234,12 @@
         <mesh filename="package://hoap3_description/meshes/RLEG_LINK03.dae"/>
       </geometry>
     </visual>
-    <intertial>
+    <inertial>
       <mass value="5.19e-01"/>
       <origin xyz="-0.0698208 0.00616508 -0.00326392"/>
-    </intertial>
+      <!-- FIXME: Dummy inertia for a box of 0.1m side length with a mass of 0.6kg -->
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
   </link>
   <link name="R_KN">
     <visual>
@@ -218,10 +248,12 @@
         <mesh filename="package://hoap3_description/meshes/RLEG_LINK04.dae"/>
       </geometry>
     </visual>
-    <intertial>
+    <inertial>
       <mass value="3.28e-01"/>
       <origin xyz="-0.0508521 0.00536785 -0.0046975"/>
-    </intertial>
+      <!-- FIXME: Dummy inertia for a box of 0.1m side length with a mass of 0.6kg -->
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
   </link>
   <link name="R_AFE">
     <visual>
@@ -230,10 +262,12 @@
         <mesh filename="package://hoap3_description/meshes/RLEG_LINK05.dae"/>
       </geometry>
     </visual>
-    <intertial>
+    <inertial>
       <mass value="1.95e-01"/>
       <origin xyz="0.00293669 0.00366853 -0.00133746"/>
-    </intertial>
+      <!-- FIXME: Dummy inertia for a box of 0.1m side length with a mass of 0.6kg -->
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
   </link>
   <link name="R_AAA">
     <visual>
@@ -242,10 +276,12 @@
         <mesh filename="package://hoap3_description/meshes/RLEG_LINK06.dae"/>
       </geometry>
     </visual>
-    <intertial>
+    <inertial>
       <mass value="1.54e-01"/>
       <origin xyz="-0.0292236 0.00324167 0.00827642"/>
-    </intertial>
+      <!-- FIXME: Dummy inertia for a box of 0.1m side length with a mass of 0.6kg -->
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
   </link>
   <link name="R_FOOT"/>
   <link name="L_LR">
@@ -255,10 +291,12 @@
         <mesh filename="package://hoap3_description/meshes/LLEG_LINK01.dae"/>
       </geometry>
     </visual>
-    <intertial>
+    <inertial>
       <mass value="5.87e-02"/>
       <origin xyz="0.00300449 -0.00225088 0.0335846"/>
-    </intertial>
+      <!-- FIXME: Dummy inertia for a box of 0.1m side length with a mass of 0.6kg -->
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
   </link>
   <link name="L_LAA">
     <visual>
@@ -267,10 +305,12 @@
         <mesh filename="package://hoap3_description/meshes/LLEG_LINK02.dae"/>
       </geometry>
     </visual>
-    <intertial>
+    <inertial>
       <mass value="2.10e-01"/>
       <origin xyz="-0.00271179 -0.00124723 0.00238665"/>
-    </intertial>
+      <!-- FIXME: Dummy inertia for a box of 0.1m side length with a mass of 0.6kg -->
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
   </link>
   <link name="L_LFE">
     <visual>
@@ -279,10 +319,12 @@
         <mesh filename="package://hoap3_description/meshes/LLEG_LINK03.dae"/>
       </geometry>
     </visual>
-    <intertial>
+    <inertial>
       <mass value="5.19e-01"/>
       <origin xyz="-0.0699224 0.00627642 0.00331502"/>
-    </intertial>
+      <!-- FIXME: Dummy inertia for a box of 0.1m side length with a mass of 0.6kg -->
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
   </link>
   <link name="L_KN">
     <visual>
@@ -291,10 +333,12 @@
         <mesh filename="package://hoap3_description/meshes/LLEG_LINK04.dae"/>
       </geometry>
     </visual>
-    <intertial>
+    <inertial>
       <mass value="3.28e-01"/>
       <origin xyz="-0.0508386 0.00537031 0.00487773"/>
-    </intertial>
+      <!-- FIXME: Dummy inertia for a box of 0.1m side length with a mass of 0.6kg -->
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
   </link>
   <link name="L_AFE">
     <visual>
@@ -303,10 +347,12 @@
         <mesh filename="package://hoap3_description/meshes/LLEG_LINK05.dae"/>
       </geometry>
     </visual>
-    <intertial>
+    <inertial>
       <mass value="1.95e-01"/>
       <origin xyz="0.00292057 0.00369219 0.00119731"/>
-    </intertial>
+      <!-- FIXME: Dummy inertia for a box of 0.1m side length with a mass of 0.6kg -->
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
   </link>
   <link name="L_AAA">
     <visual>
@@ -315,10 +361,12 @@
         <mesh filename="package://hoap3_description/meshes/LLEG_LINK06.dae"/>
       </geometry>
     </visual>
-    <intertial>
+    <inertial>
       <mass value="1.54e-01"/>
       <origin xyz="-0.0292236 -0.0033462 0.00827642"/>
-    </intertial>
+      <!-- FIXME: Dummy inertia for a box of 0.1m side length with a mass of 0.6kg -->
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
   </link>
   <link name="L_FOOT"/>
   <link name="WAIST">
@@ -328,10 +376,12 @@
         <mesh filename="package://hoap3_description/meshes/BODY_LINK02.dae"/>
       </geometry>
     </visual>
-    <intertial>
+    <inertial>
       <mass value="4.17e-01"/>
       <origin xyz="-0.0322707 0.0111375 -0.000329172"/>
-    </intertial>
+      <!-- FIXME: Dummy inertia for a box of 0.1m side length with a mass of 0.6kg -->
+      <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+    </inertial>
   </link>
 
   <joint name="base_link_WAIST_joint" type="fixed">
