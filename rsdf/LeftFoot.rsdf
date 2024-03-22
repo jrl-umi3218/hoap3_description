@@ -1,0 +1,22 @@
+<robot name="hoap3">
+  <planar_surface name="LeftFoot" link="L_AAA">
+    <origin xyz="-0.04 0 0.0" rpy="-1.57 -1.57 -1.57" />
+    <points>
+      <point xy="0.0595 0.0405" />
+      <point xy="-0.0315 0.0405" />
+      <point xy="-0.0315 -0.0305" />
+      <point xy="0.0595 -0.0305" />
+    </points>
+    <material name="plastic" />
+  </planar_surface>
+  <planar_surface name="LeftFootCenter" link="L_FOOT">
+    <origin xyz="0.0 0.0 0.0" rpy="-1.57 -1.57 -1.57" />
+    <points>
+      <point xy="0.0455 0.0355" />
+      <point xy="-0.0455 0.0355" />
+      <point xy="-0.0455 -0.0355" />
+      <point xy="0.0455 -0.0355" />
+    </points>
+    <material name="plastic" />
+  </planar_surface>
+</robot>
